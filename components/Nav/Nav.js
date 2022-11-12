@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <>
       <nav className="flex relative mobile:p-2 tablet:p-5 flex-col m-auto max-w-7xl ">
-        <section className="flex">
+        <section className="flex z-50">
           <Search />
           <Menu />
         </section>

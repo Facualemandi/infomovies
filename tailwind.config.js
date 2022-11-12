@@ -21,6 +21,12 @@ module.exports = {
         desktop: "1280px",
         // => @media (min-width: 1280px) { ... }
       },
+      fontSize: {
+        sm: "4vw",
+        base: "3.5vw",
+        xl: "3vw",
+        xxl: "2.5vw",
+      },
     },
   },
   plugins: [],
