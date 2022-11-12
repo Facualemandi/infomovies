@@ -26,32 +26,31 @@ const Menu = () => {
 
       {(menu || windowWidth >= 1024) && (
         <nav className="fixed  w-full top-0 left-0 p-3 bg-sky-900">
-            
-          <ul className="  m-auto text-white  || laptop:flex laptop:max-w-7xl">
+          <ul className="  m-auto text-white  || laptop:flex laptop:max-w-7xl cursor-pointer">
             <li className="[&>*]:hover:block font-semibold || laptop:w-36">
               Movies
-              <ul className="[&>*]:p-3 font-light || laptop:hidden">
-                <li>Opcion1</li>
-                <li>Opcion2</li>
-                <li>Opcion3</li>
-                <li>Opcion3</li>
+              <ul className="[&>*]:p-3 font-light  || laptop:hidden laptop:[&>*:hover]:bg-sky-800 laptop:[&>*]:rounded-lg  laptop:[&>*]:duration-300">
+                <li>Popular</li>
+                <li>Now Playing</li>
+                <li>Upcoming</li>
+                <li>Top Rated</li>
               </ul>
             </li>
 
             <li className="[&>*]:hover:block font-semibold || laptop:w-36">
               TV Shows
-              <ul className="[&>*]:p-3 font-light || laptop:hidden">
-                <li>Opcion1</li>
-                <li>Opcion2</li>
-                <li>Opcion3</li>
-                <li>Opcion3</li>
+              <ul className="[&>*]:p-3 font-light || laptop:hidden laptop:[&>*:hover]:bg-sky-800 laptop:[&>*]:rounded-lg laptop:[&>*]:duration-300">
+                <li>Popular Tv</li>
+                <li>Airing Today</li>
+                <li>On Tv</li>
+                <li>Top Rated</li>
               </ul>
             </li>
 
             <li className="[&>*]:hover:block font-semibold || laptop:w-36">
               Person
-              <ul className="[&>*]:p-3 font-light || laptop:hidden">
-                <li>Opcion1</li>
+              <ul className="[&>*]:p-3 font-light || laptop:hidden laptop:[&>*:hover]:bg-sky-800 laptop:[&>*]:rounded-lg laptop:[&>*]:duration-300">
+                <li>Popular People</li>
               </ul>
             </li>
           </ul>
