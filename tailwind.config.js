@@ -16,6 +16,7 @@ module.exports = {
         // => @media (min-width: 640px) { ... }
 
         laptop: "1024px",
+        maxLaptop: { max: "1024px" },
         // => @media (min-width: 1024px) { ... }
 
         desktop: "1280px",

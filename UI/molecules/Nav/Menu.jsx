@@ -25,7 +25,7 @@ const Menu = () => {
       </div>
 
       {(menu || windowWidth >= 1024) && (
-        <nav className="fixed w-full top-0 left-0 p-3 bg-sky-900">
+        <nav className="fixed w-full top-0 left-0 p-3 bg-sky-900 || maxLaptop:h-screen">
           <ul className="  m-auto text-white  || laptop:flex laptop:max-w-7xl cursor-pointer">
             <li className="[&>*]:hover:block font-semibold || laptop:w-36">
               Movies

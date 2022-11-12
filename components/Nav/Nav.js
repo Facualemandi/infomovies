@@ -6,7 +6,7 @@ import Poster from "../Poster/Poster";
 const Nav = () => {
   return (
     <>
-      <nav className="flex relative mobile:p-2 tablet:p-5 flex-col m-auto max-w-7xl ">
+      <nav className="flex relative mobile:p-2 tablet:p-2 flex-col m-auto max-w-7xl ">
         <section className="flex z-50">
           <Search />
           <Menu />
