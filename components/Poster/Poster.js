@@ -8,7 +8,7 @@ const Poster = () => {
       <Image
         alt="Los Simpsons"
         src={Simpsons}
-        className="w-full mobile:rounded-2xl mt-4"
+        className="w-full rounded-lg mt-4"
       />
     </>
   );
