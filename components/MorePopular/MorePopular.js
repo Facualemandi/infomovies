@@ -12,7 +12,7 @@ const MorePopular = () => {
 
   return (
     <>
-      <section className="flex ml-3 mt-3 items-center ">
+      <section className="flex ml-3 mt-3 items-center max-w-7xl || laptop:m-auto laptop:my-4 ">
         <h3 className="font-semibold">What's Popular</h3>
 
         <select

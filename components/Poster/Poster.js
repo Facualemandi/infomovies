@@ -9,6 +9,7 @@ const Poster = () => {
         alt="Los Simpsons"
         src={Simpsons}
         className="w-full rounded-lg mt-4"
+        priority
       />
       <div className="p-1 absolute top-6 text-white">
         <h3 className="text-sm font-semibold">Bienvenidos</h3>

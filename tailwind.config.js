@@ -28,6 +28,9 @@ module.exports = {
         xl: "3vw",
         xxl: "2.5vw",
       },
+      colors: {
+        'transparent-white': '#ffffffb8',
+      },
     },
   },
   plugins: [],
